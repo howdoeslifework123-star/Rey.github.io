@@ -1,6 +1,4 @@
-/* ============================
-   RESET & GLOBALS
-============================= */
+
 * {
   margin: 0;
   padding: 0;
@@ -9,23 +7,21 @@
 }
 
 body {
-  background: #000000; /* Cyberpunk black */
-  color: #50F4E8; /* Cyan text glow */
+  background: #000000; 
+  color: #50F4E8; 
   line-height: 1.6;
 }
 
-/* Neon Glow Helper */
+
 .neon-text {
   text-shadow: 0 0 5px currentColor, 0 0 10px currentColor;
 }
 
-/* ============================
-   NAVIGATION BAR
-============================= */
+
 header {
-  background: #800020; /* Dark crimson */
+  background: #800020; 
   padding: 15px 0;
-  border-bottom: 3px solid #C70039; /* Neon pink strip */
+  border-bottom: 3px solid #C70039; 
   box-shadow: 0 0 15px #C70039;
 }
 
@@ -49,9 +45,7 @@ nav a:hover {
   text-shadow: 0 0 10px #FFF200;
 }
 
-/* ============================
-   HERO SECTION
-============================= */
+
 .hero {
   background: linear-gradient(
       rgba(0,0,0,0.7),
@@ -64,7 +58,7 @@ nav a:hover {
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: #FFF200; /* Neon yellow */
+  color: #FFF200; 
 }
 
 .hero h1 {
@@ -77,9 +71,7 @@ nav a:hover {
   box-shadow: 0 0 15px #C70039 inset;
 }
 
-/* ============================
-   CONTENT CONTAINER
-============================= */
+
 .container {
   max-width: 1000px;
   margin: 40px auto;
@@ -99,9 +91,7 @@ p {
   color: #50F4E8;
 }
 
-/* ============================
-   GALLERY
-============================= */
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -121,9 +111,7 @@ p {
   box-shadow: 0 0 20px #FFF200;
 }
 
-/* ============================
-   FOOTER
-============================= */
+
 footer {
   background: #800020;
   color: #50F4E8;
@@ -139,9 +127,7 @@ footer p {
   text-shadow: 0 0 5px #50F4E8;
 }
 
-/* ============================
-   RESPONSIVE
-============================= */
+
 @media (max-width: 600px) {
   .hero h1 {
     font-size: 2rem;
